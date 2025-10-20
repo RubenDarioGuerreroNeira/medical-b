@@ -1,0 +1,5 @@
+### Probar el endpoint de test
+GET http://127.0.0.1:4000/medical-bot-da316/us-central1/api/test
+
+### Probar el endpoint raíz
+GET http://127.0.0.1:4000/medical-bot-da316/us-central1/api/
