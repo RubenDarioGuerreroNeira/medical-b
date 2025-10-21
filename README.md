@@ -49,17 +49,7 @@ Nota sobre alertas de licencia: si herramientas automatizadas o la interfaz de G
 
 ## Instalación
 
-Instala las dependencias en la raíz y en `functions`:
-
-> **Aviso de licencia y atribución:**  
-> El código fuente de este repositorio es completamente original y no incluye fragmentos copiados de https://github.com/joaquincamara/alchemist ni de ningún otro repositorio externo.  
-> Todas las dependencias utilizadas están declaradas en los archivos `package.json` y `functions/package.json` y se publican bajo sus propias licencias.  
-> Este proyecto incluye un archivo `LICENSE` (MIT) en la raíz para identificar la licencia del código fuente propio y evitar confusiones con avisos automáticos de plataformas como GitHub.
-> Si ves el mensaje "Use code with caution" o referencias a https://github.com/joaquincamara/alchemist, es un falso positivo: este repositorio no contiene código copiado de ese proyecto y todo el código fuente es original y bajo MIT.
-> **Aviso de licencia y atribución:**  
-> Los siguientes comandos de instalación (`npm install`) son estándar y originales, no copiados de ningún repositorio externo.  
-> Todas las dependencias utilizadas están declaradas en los archivos `package.json` y `functions/package.json` y se publican bajo sus propias licencias.  
-> Este proyecto incluye un archivo `LICENSE` (MIT) en la raíz para identificar la licencia del código fuente propio.
+Este proyecto es un monorepo que contiene la aplicación NestJS en la raíz y el código de Firebase Functions en la carpeta `functions/`. Debes instalar las dependencias en ambos lugares.
 
 ```bash
 # 1. Instalar dependencias de la aplicación NestJS (raíz)
